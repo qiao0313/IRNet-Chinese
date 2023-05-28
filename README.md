@@ -33,4 +33,4 @@
 
 | model | dev acc |
 | :---: | :---: |
-| IRNet + GLOVE | 83.0 |
+| IRNet + GLOVE | 80.3 |
