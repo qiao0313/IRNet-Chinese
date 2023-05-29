@@ -1,6 +1,6 @@
 # IRNet-CSgSQL
 
-将IRNet应用于电网领域的Text-to-SQL数据集中，对其他中文领域数据集也适用。
+将IRNet应用于电网领域的Text-to-SQL数据集中，对其他中文领域数据集也适用。同时，本项目实现了问答demo。
 
 ## 环境配置
 
@@ -34,3 +34,9 @@
 | model | dev acc |
 | :---: | :---: |
 | IRNet + GLOVE | 80.3 |
+
+## 部署
+
+运行`infer.py`文件并将文件中相应的模型路径修改即可。
+
+`python infer.py`
