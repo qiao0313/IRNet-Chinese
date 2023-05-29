@@ -21,13 +21,13 @@
 
 运行`train.sh`训练IRNet。
 
-`sh train.sh [GPU_ID] [SAVE_FOLD]`
+    sh train.sh [GPU_ID] [SAVE_FOLD]
 
 ## 测试
 
 运行`eval.sh`评估IRNet。
 
-`sh eval.sh [GPU_ID] [OUTPUT_FOLD]`
+    sh eval.sh [GPU_ID] [OUTPUT_FOLD]
 
 ## 结果
 
@@ -39,4 +39,4 @@
 
 运行`infer.py`文件并将文件中相应的模型路径修改即可。
 
-`python infer.py`
+    python infer.py
