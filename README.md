@@ -13,7 +13,7 @@
 
 2.下载[中文Glove](https://github.com/Embedding/Chinese-Word-Vectors)词向量到`./pretrained_models/`目录中，本项目使用了基于百度百科数据训练的Glove词向量。
 
-## 数据集数据结构说明
+## 数据集
 
 CSgSQL数据集和[Spider](https://yale-lily.github.io/spider)数据集结构基本相同，具体包含train.json，dev.json以及db_schema.json三个文件。
 
