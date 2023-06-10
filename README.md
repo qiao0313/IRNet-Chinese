@@ -15,11 +15,11 @@
 
 ## 数据集
 
-CSgSQL数据集和[Spider](https://yale-lily.github.io/spider)数据集结构基本相同，具体包含train.json，dev.json以及db_schema.json三个文件。
+CSgSQL数据集和[Spider](https://yale-lily.github.io/spider)数据集结构基本相同，具体包含`train.json`，`dev.json`以及`db_schema.json`三个文件。
 
-1.`train.json`和`dev.json`对应于Spider数据集的训练集和验证集，只不过没有像Spider中的"query_toks"，"query_toks_no_value"和"question_toks"三个键，对于NL和SQL可以自己进行分词，并且将SQL中的数值用value单词替换。
+1.`train.json`和`dev.json`对应于Spider数据集的训练集和验证集，只不过没有像Spider中的`"query_toks"`，`"query_toks_no_value"`和`"question_toks"`三个键，对于NL和SQL可以自己进行分词，并且将SQL中的数值用value单词替换。
 
-2.`db_schema.json`对应于Spider数据集的`tables.json`文件，其中”table_names_original“对应于表的英文名字，"table_names"对应于表的中文名字，"column_names_original"和"column_names"也是类似。
+2.`db_schema.json`对应于Spider数据集的`tables.json`文件，其中`"table_names_original"`对应于表的英文名字，`"table_names"`对应于表的中文名字，`"column_names_original"`和`"column_names"`也是类似。
 
 ## 预处理
 
@@ -41,7 +41,7 @@ CSgSQL数据集和[Spider](https://yale-lily.github.io/spider)数据集结构基
 
 | model | dev acc |
 | :---: | :---: |
-| IRNet + GLOVE | 80.3 |
+| IRNet + Glove | 80.3 |
 
 ## 部署
 
