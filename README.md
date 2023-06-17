@@ -1,4 +1,4 @@
-# IRNet-CSgSQL
+# IRNet-Chinese
 
 将IRNet应用于电网领域的Text-to-SQL数据集中，对其他中文领域数据集也适用。同时，本项目实现了问答demo。
 
